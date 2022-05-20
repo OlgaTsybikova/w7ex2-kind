@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node src",
     "start-dev": "nodemon src -q",
-    "test": "jest --watchAll",
-    "test-coverage": "jest --watchAll --coverage"
+    "test": "jest --watchAll=false",
+    "test-coverage": "jest --watchAll=false --coverage"
   },
   "keywords": [],
   "author": "",
