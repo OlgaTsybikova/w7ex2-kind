@@ -1,7 +1,7 @@
 const Kind = require("../../models/Kind");
 const { getKindsList } = require("./kindsControllers");
 
-describe("Given a getkindsList fucntion", () => {
+describe("Given a getkindsList function", () => {
   describe("When it receives a request", () => {
     test("Then it should response with a method status 200 and a mockKind", async () => {
       const res = {
